@@ -4,6 +4,7 @@ body{
     margin-right: 10%;
     margin-top: 0px;
     margin-bottom: 10px;
+    height: 1080px
 }
 header{
     background-color: black;
@@ -199,4 +200,5 @@ footer p{
 .a{
     text-decoration: none;
     color: black;
+
 }
