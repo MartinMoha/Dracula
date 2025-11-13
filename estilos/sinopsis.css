@@ -1,0 +1,25 @@
+
+.sin{
+    font-size: 20px;
+    margin: 10px;
+    padding-bottom: 2%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.drac{
+    color: brown;
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 60px;
+    text-align: center;
+}
+.pj{
+    margin-top: 50px;
+    height: 300px;
+    width: 200px;
+    margin-left: 140px;
+    border-radius: 10px;
+    border: 3px solid rgb(138, 15, 15);
+}
+

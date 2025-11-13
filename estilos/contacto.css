@@ -1,0 +1,45 @@
+.form{
+    width: 80%;
+    font-size: 35px;
+    padding-left: 10%;
+}
+form{
+    width: 100%;
+}
+div{
+    width: 100%;
+}
+input{
+    width: 90%;
+    height: 20px;
+    font-size: 25px;
+}
+label{
+    text-align: center;
+    color: rgb(138, 15, 15);
+}
+textarea{
+    width: 90%;
+}
+#enviar{
+    height: 30px;
+}
+h1{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.poster{
+    margin-left: 7%;
+    width: 70%;
+    border-radius: 10px;
+    border: 3px solid rgb(138, 15, 15);
+}
+section{
+    display: flex;
+}
+section article{
+    width: 50%;
+}
+
+
+

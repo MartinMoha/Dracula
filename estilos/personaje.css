@@ -1,0 +1,103 @@
+
+.pjs{
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 3px solid rgb(138, 15, 15);
+    background-color: rgb(138, 15, 15);
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+img{
+    height: 90%;
+    width: 100%;
+}
+.card{
+    display: flex;
+    gap: 2rem;
+    padding: 1%;
+}
+.pjs p{
+    text-align: center;
+    color:white;
+}
+.pjs:hover{
+    background-color: black;
+    transform: scale(1.07);
+    border: 3px solid black;
+    transition: 0.5s;
+}
+.mas{
+    display: none;
+}
+.pjs:hover .mas{
+    display: block;
+    text-decoration: none;
+}
+.pjs:hover .nombre{
+    display: none;
+}
+
+.galeria{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    "gary gary wynona wynona"
+    "hopkins keanu wynona wynona"
+    "todos keanu wynona wynona"
+    ;
+    height: 80%;
+    width: 96%;
+    margin-left: 30px;
+}
+#keanu{
+    grid-area: keanu;
+    transition: 0.2s;
+}
+#wynona{
+    grid-area: wynona;
+    transition: 0.2s;
+}
+#gary{
+    grid-area: gary;
+    transition: 0.2s;
+}
+#hopkins{
+    grid-area: hopkins;
+    transition: 0.2s;
+}
+#todos{
+    grid-area: todos;
+    transition: 0.2s;
+}
+.galeria img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+h1{
+    padding-top: 40px;
+}
+#keanu:hover{
+    transform: scale(1.001);
+    transition: 0.2s;
+}
+#wynona:hover{
+    transform: scale(1.001);
+    transition: 0.2s;
+}
+#gary:hover{
+    transform: scale(1.001);
+    transition: 0.2s;
+}
+#hopkins:hover{
+    transform: scale(1.001);
+    transition: 0.2s;
+}
+#todos:hover{
+    transform: scale(1.001);
+    transition: 0.2s;
+}

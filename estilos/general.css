@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(119, 8, 8);
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+header{
+    background-color: black;
+}
+header, h1{
+    text-align: center;
+}
+.nave{
+    margin: 40px;
+    color: white;
+text-decoration: none;
+margin-right: 4%;
+}
+.nave1{
+        margin: 40px;
+    color: red;
+text-decoration: none;
+margin-right: 4%;
+}
+nav{
+    margin-top: 5px;
+}
+.foto{
+    align-items: center;
+    height: 250px;
+width: 90%;
+}
+main{
+    background-color: white;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+}
+
+main h1{
+    color: rgb(146, 11, 11);
+    padding-top: 10%;
+    font-size: 120px;
+    margin-top: 0px;
+}
+footer{
+    text-align: end;
+    background-color: black;
+    height: 100px;
+    color: white;
+    margin-top: 0px;
+}
+main h1{
+    color: rgb(146, 11, 11);
+    padding-top: 5%;
+    font-size: 120px;
+    margin-top: 0px;
+}
+audio{
+    width: 100px;
+    height: 50px;
+    position: fixed;
+    margin-left: 73%;
+    margin-top: 25%;
+    z-index: 10;
+}
+#audio{
+    position: fixed;
+    padding-left: 0%;
+}
+*{
+    font-family: sans-serif;
+}

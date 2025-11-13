@@ -1,0 +1,28 @@
+
+.trailer{
+background-color: black;
+padding: 15px;
+width: 560px;
+height: 315px;
+margin-left: 12%;
+}
+.poster{
+    margin-left: 7%;
+    width: 360px;
+    border-radius: 10px;
+    border: 3px solid rgb(138, 15, 15);
+}
+.sub{
+    font-size: 30px;
+    margin-left: 10%;
+}
+section{
+    display: flex;
+    align-items: center;
+}
+article{
+    padding-left: 10%;
+}
+.audio{
+    padding-right: 10%;
+}

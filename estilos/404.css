@@ -1,0 +1,27 @@
+.gif video{
+    width: 20%;
+}
+.gif{
+    width: 100%;
+    text-align: center;
+    padding-top: 1%;
+}
+.vol{
+        margin-top: 80px;
+        text-align: center;
+        transition: 0.2s;
+}
+.volver{
+    text-align: center;
+background-color: rgb(184, 16, 16);
+color:white;
+padding: 15px;
+font-size: 20px;
+text-decoration: none;
+border-radius: 10px;
+}
+.text{
+    font-size: 40px;
+    color: rgb(184, 16, 16);
+    align-items: center;
+}

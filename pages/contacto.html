@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dracula</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../estilos/general.css">
+    <link rel="stylesheet" href="../estilos/contacto.css">
+    <link rel="stylesheet" href="../estilos/estrellas.css">
+    <link rel="icon" href="../imagenes/dracula-icon-illustration-design-template-vector.png">
 </head>
 <body>
     <header>
@@ -18,14 +21,38 @@
 <a href="../pages/contacto.html" class="nave1">CONTACTO</a>
 </nav>
     </header>
-    <main class="pjs">
-        <p class="cont">Nombre y apellido</p>
-        <p class="formulario">.</p>
-        <p class="cont">Comentario sobre la pelicula</p>
-        <p class="formulario1">.</p>
-        <p class="env"><a href="../pages/gracias.html" class="enviar">Enviar</a></p>
-
-       
+    <main class="inicio">
+        <article id="audio">
+            <audio controls src="../imagenes/Dracula - The Beginning  Bram Stoker_s Dracula (Original Motion Picture Soundtrack) - SonySoundtracksVEVO.mp3" autoplay></audio>
+        </article>
+    <h1>DEJA TU COMENTARIO SOBRE LA PELICULA</h1>
+<section>
+    <article>
+        <form action="../pages/gracias.html">
+            <div class="form">
+                <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" required>
+    
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido">
+    
+        <label for="email">Correo electrónico:</label>
+        <input type="email" name="email" required>
+    
+        <label>Calificación:</label>
+        <input type="range" name="calif" min="1" value="2" max="5">
+    
+        <label for="comentario">Comentario:</label>
+        <textarea rows="8" name="comentario" placeholder="Escribí lo que te pareció" required></textarea>
+    
+        <input type="submit" id="enviar">
+            </div>
+        </form>
+    </article>
+    <article>
+        <img src="../imagenes/dracula-bram-stoker.jpg" alt="" class="poster">
+       </article>
+</section>
     </main>
     <footer>
  <p>©Martin Mohamed</p>
