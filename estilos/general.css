@@ -50,6 +50,10 @@ footer{
     color: white;
     margin-top: 0px;
 }
+.fot{
+    margin-top: 0%;
+    padding: 2%;
+}
 main h1{
     color: rgb(146, 11, 11);
     padding-top: 5%;
@@ -71,3 +75,4 @@ audio{
 *{
     font-family: sans-serif;
 }
+
