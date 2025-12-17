@@ -108,9 +108,10 @@ audio{
     header{
         position: fixed;
     }
-    audio{
-
-    } 
+    main{
+        background-color: white;
+    }
 }
+
 
 
