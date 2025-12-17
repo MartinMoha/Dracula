@@ -3,7 +3,7 @@ body{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 header{
     background-color: black;
@@ -44,15 +44,15 @@ main h1{
     margin-top: 0px;
 }
 footer{
-    text-align: end;
+    text-align: right;
     background-color: black;
     height: 100px;
     color: white;
-    margin-top: 0px;
+    margin-top: -20px;
 }
-.fot{
-    margin-top: 0%;
-    padding: 2%;
+footer p{
+    padding-top: 30px;
+    padding-right: 15px;
 }
 main h1{
     color: rgb(146, 11, 11);
@@ -64,8 +64,8 @@ audio{
     width: 100px;
     height: 50px;
     position: fixed;
-    margin-left: 73%;
-    margin-top: 25%;
+    right: 200px;
+    bottom: 10%;
     z-index: 10;
 }
 #audio{
@@ -75,4 +75,42 @@ audio{
 *{
     font-family: sans-serif;
 }
+@media (max-width: 600px) {
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+    nav{
+        display: none;
+    }
+    .foto{
+        width: 31%;
+        height: 28%;
+    }
+    #hmb{
+        z-index: 99999;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    #hmb img{
+        width: 16%;
+    }
+    header{
+        width: 100%;
+        top: 0%;
+        left: 0%;
+    }
+    main h1{
+    font-size: 48px;
+    padding-top: 28%;
+    }
+    header{
+        position: fixed;
+    }
+    audio{
+
+    } 
+}
+
 
